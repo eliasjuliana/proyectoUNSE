@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Grupo 3">
+    <meta name="description" content="Proyecto Universidad Nacional de Santiago del Estero">
+    <meta name="keywords" content="universidad, estudiantes, UNSE">
+    <title>UNSE</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a48a581e8f.js" crossorigin="anonymous"></script>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header></header>
+    <main>
+        <section>
+            <article>
+                <img id="bannerImg" src="./Assets/index/banner.jpeg" alt="inteligencia artificial">
+                <!-- <div id="banner__gradient"></div> -->
+            </article>
+
+            <article id="bannerArticle" class="container text-end">
+                <h1 id="bannerTitle" class="animate__animated animate__fadeInRight">SOMOS UNSE</h1>
+                <h2 id="bannerText" class="animate__animated animate__fadeInRight animate__delay-1s">Tu futuro en nuestras manos</h2>
+            </article>
+        </section>
+
+<!-- FACULTADES -->
+        <section class="container-fluid p-5" id="facultyContainer">
+            <article class="container border-bottom border-3">
+                <h3 class="p-3 text-light">FACULTADES</h3>
+            </article>
+            
+
+            <article class="row px-lg-5 justify-content-center">
+                <div class="col-lg-5 col-sm-12 facultyCard">
+                    <div class="container d-flex flex-column text-light p-5">
+                        <img src="./Assets/index/facultadIngenieria.jpeg" alt="Facultad de Ingenieria">
+                        <div class="bg-dark p-5">
+                            <h5>Facultad de Ingenieria</h5>
+                            <p class="facultyCardText">La Facultad de Ingeniería es un centro académico destacado que ofrece programas de estudio innovadores 
+                                en diversas disciplinas técnicas. Preparamos a nuestros estudiantes para enfrentar desafíos del mundo real a través 
+                                de enfoques prácticos y orientados a la investigación.</p>
+                            <div class="d-flex gap-2 align-items-center">
+                                    <a class="btnFacultyCard d-flex align-items-center" href="#">
+                                        <i class="fa-solid fa-arrow-right btnArrow"></i>
+                                    </a>
+                                <p class="m-0">Ver más</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-sm-12 facultyCard">
+                    <div class="container d-flex flex-column text-light p-5">
+                        <img src="./Assets/index/facultadEconomia.jpeg" alt="Facultad de Economia">
+                        <div class="bg-dark p-5">
+                            <h5>Facultad de Economia</h5>
+                            <p class="facultyCardText">La Facultad de Economía es un referente académico reconocido, ofreciendo programas de estudio sólidos en teoría económica y 
+                                análisis financiero. Nuestros estudiantes adquieren habilidades fundamentales para comprender y abordar los desafíos económicos 
+                                actuales.</p>
+                            <div class="d-flex gap-2 align-items-center">
+                                <a class="btnFacultyCard d-flex align-items-center" href="#">
+                                    <i class="fa-solid fa-arrow-right btnArrow"></i>
+                                </a>
+                            <p class="m-0">Ver más</p>
+                        </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-sm-12 facultyCard">
+                    <div class="container d-flex flex-column text-light p-5">
+                        <img src="./Assets/index/facultadBioquimica.jpeg" alt="Facultad de Bioquimica">
+                        <div class="bg-dark p-5">
+                            <h5>Facultad de Bioquimica</h5>
+                            <p class="facultyCardText">La Facultad de Bioquímica es líder en la formación de profesionales especializados en el estudio de la química de los seres vivos. 
+                                Nuestros programas ofrecen una combinación de conocimientos teóricos y prácticos para abordar la investigación y el análisis de 
+                                biomoléculas y procesos bioquímicos. </p>
+                            <div class="d-flex gap-2 align-items-center">
+                                <a class="btnFacultyCard d-flex align-items-center" href="#">
+                                    <i class="fa-solid fa-arrow-right btnArrow"></i>
+                                </a>
+                            <p class="m-0">Ver más</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-sm-12 facultyCard">
+                    <div class="container d-flex flex-column text-light p-5">
+                        <img src="./Assets/index/facultadArquitectura.jpeg" alt="Facultad de Arquitectura">
+                        <div class="bg-dark p-5">
+                            <h5>Facultad de Arquitectura</h5>
+                            <p class="facultyCardText">La Facultad de Arquitectura es una institución líder en la formación de arquitectos creativos y visionarios. Nuestros programas 
+                                integran conocimientos teóricos y prácticos para desarrollar habilidades en diseño arquitectónico, planificación urbana y 
+                                sostenibilidad.</p>
+                            <div class="d-flex gap-2 align-items-center">
+                                <a class="btnFacultyCard d-flex align-items-center" href="#">
+                                    <i class="fa-solid fa-arrow-right btnArrow"></i>
+                                </a>
+                            <p class="m-0">Ver más</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+<!-- NUESTRO CAMPUS -->
+    <section>
+        <article class="container border-bottom border-3">
+            <h3 class="p-3">NUESTRO CAMPUS</h3>
+        </article>
+
+        <article class="container-fluid m-3 d-flex justify-content-center">
+            <iframe class="m-3" width="560" height="315" src="https://www.youtube.com/embed/x0Z6xuwmkjA" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </article>
+
+
+
+        <article class="container-fluid m-3">
+
+            <h4 class="m-3">La universidad en numeros</h4>
+
+            <div class="row d-flex justify-content-center gap-3">
+                <div class="col-lg-3 col-md-10 d-flex flex-column align-items-center p-3">
+                    <h2 class="statisticsNumber">12k</h2>
+                    <h3 class="fs-4">estudiantes graduados <br> de esta Universidad</h3>
+                </div>
+        
+                <div class="col-lg-3 col-md-10 d-flex flex-column align-items-center p-3">
+                    <h2 class="statisticsNumber">7</h2>
+                    <h3 class="fs-4">programas de doctorado</h3>
+                </div>
+        
+                <div class="col-lg-3 col-md-10 d-flex flex-column align-items-center p-3">
+                    <h2 class="statisticsNumber">15</h2>
+                    <h3 class="fs-4">programas de master</h3>
+                </div>
+            </div>        
+        </article>
+
+    </section>
+
+<!--COMENTARIOS ALUMNOS -->
+    <section class="container-fluid p-5" id="commentsContainer">
+        <article class="container border-bottom border-3">
+            <h3 class="p-3 text-light">Experimenta la UNSE</h3>
+        </article>
+
+        <article class="container-fluid mt-5 row d-flex justify-content-center row-gap-5"> 
+            <div class="col-lg-8 d-flex align-items-center gap-2">
+                <img class="commentsImg" src="./Assets/index/alumno1.jpg" alt="alumno 1">
+                <div class="d-flex flex-column">
+                    <p class="text-light text-end">La UNSE ofrece una amplia variedad de oportunidades de investigación, actividades extracurriculares y recursos para el desarrollo profesional, 
+                        brindando así una experiencia educativa enriquecedora y completa</p>
+                    <p class="text-light text-end">Sheldon, 18 anios</p>
+                </div>
+            </div> 
+
+            <div class="col-lg-8 d-flex align-items-center gap-2">
+                <div class="d-flex flex-column">
+                    <p class="text-light text-end">La UNSE ofrece una amplia variedad de oportunidades de investigación, actividades extracurriculares y recursos para el desarrollo profesional, 
+                        brindando así una experiencia educativa enriquecedora y completa</p>
+                    <p class="text-light text-end">Sheldon, 18 anios</p>
+                </div>
+                <img class="commentsImg" src="./Assets/index/alumno1.jpg" alt="alumno 1">
+            </div> 
+
+            <div class="col-lg-8 d-flex align-items-center gap-2">
+                <img class="commentsImg" src="./Assets/index/alumno1.jpg" alt="alumno 1">
+                <div class="d-flex flex-column">
+                    <p class="text-light text-end">La UNSE ofrece una amplia variedad de oportunidades de investigación, actividades extracurriculares y recursos para el desarrollo profesional, 
+                        brindando así una experiencia educativa enriquecedora y completa</p>
+                    <p class="text-light text-end">Sheldon, 18 anios</p>
+                </div>
+            </div> 
+            
+
+        </article>
+        
+    </section>
+
+<!-- NOTICIAS -->
+
+<section>
+    <article class="container border-bottom border-3">
+        <h3 class="p-3">NOTICIAS</h3>
+    </article>
+
+    <article class="container-fluid row m-5 d-flex justify-content-evenly">
+        <div class="col-5">
+            <img class="newsImg" src="./Assets/index/noticia1.jpeg" alt="Noticia sobre el proyecto MarsGreen">
+            <div class="newsGradient"></div>
+            <h4>MarsGreen</h4>
+            <div class="d-flex gap-2">
+                <a class="btnNews" href="#">
+                    <i class="fa-solid fa-arrow-right btnArrow"></i>
+                </a>
+                <p>Conoce mas sobre el nuevo proyecto de la UNSE en Marte</p>
+            </div>
+
+        </div>
+
+        <div class="col-5">
+            <img class="newsImg" src="./Assets/index/noticia1.jpeg" alt="Noticia sobre el proyecto MarsGreen">
+            <div class="newsGradient"></div>
+            <h4>MarsGreen</h4>
+            <div class="d-flex gap-2">
+                <a class="btnNews" href="#">
+                    <i class="fa-solid fa-arrow-right btnArrow"></i>
+                </a>
+                <p>Conoce mas sobre el nuevo proyecto de la UNSE en Marte</p>
+            </div>
+
+        </div>
+    </article>
+
+
+
+</section>
+
+
+
+
+
+    </main>
+    <footer></footer>
+</body>
+</html>
